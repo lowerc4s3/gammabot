@@ -1,0 +1,9 @@
+[package]
+name = "gammabot"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rust_decimal = { version = "1.38.0", features = ["macros"] }
+teloxide = { version = "0.17.0", features = ["macros"] }
+tokio = { version = "1.47.1", features = ["macros", "rt-multi-thread"] }
